@@ -19,25 +19,59 @@
       <button id="button-login" type="submit">Entrar</button>
     </form>
   </header>
-<main class="form-container">
-  <form method="get" id="evaluation-form">
-    <div class="inputs-container">
-      <input id="input-name" placeholder="Nome" type="text">
-      <input id="input-lastname" placeholder="Sobrenome" type="text">
-      <input id="input-email" placeholder="Email" type="email">
-      <label id="label" for="house">Casa:</label>
-      <select id="house">
-        <option id="gitnoria-house" value="Gitnória">Gitnória</option>
-        <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
-        <option id="corvinode-house" value="Corvinode">Corvinode</option>
-        <option id="pytherina-house" value="Pytherina">Pytherina</option>
-      </select>
-    </div>
+  <main class="form-container">
+    <form method="get" id="evaluation-form">
+      <div class="inputs-container">
+        <div class="styles-container">
+          <input class="first-input" id="input-name" placeholder="Nome" type="text">
+          <input class="second-input" id="input-lastname" placeholder="Sobrenome" type="text">
+        </div>
+        <div class="styles-container">
+          <input class="third-input" id="input-email" placeholder="Email" type="email">
+          <select class="four-input" id="house">
+            <option id="gitnoria-house" value="Gitnória">Gitnória</option>
+            <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
+            <option id="corvinode-house" value="Corvinode">Corvinode</option>
+            <option id="pytherina-house" value="Pytherina">Pytherina</option>
+          </select>
+          <label class="five-input" for="house">Casa:</label>
+        </div>
+      </div>
+      <hr>
+      <section class="selectors-container">
+        <div class="family-container">
+          <label id="label-family" for="family">
+            <p>Qual sua família?</p>
+          </label>
+          <div>
+            <input type="radio" name="family" value="Frontend">Família Frontend
+          </div>
+          <div>
+            <input type="radio" name="family" value="Backend">Família Backend
+          </div>
+          <div>
+            <input type="radio" name="family" value="FullStack">Família FullStack
+          </div>
+        </div>
+        <div class="family-container2">
+          <label id="label-content" for="checkbox">Qual conteúdo você está com mais vontade de aprender?</label>
+          <div>
+            <input type="checkbox" name="checkbox" value="HoFs">HoFs
+            <input type="checkbox" name="checkbox" value="Jest">Jest
+            <input type="checkbox" name="checkbox" value="Promises">Promises
+          </div>
+          <div>
+            <input type="checkbox" name="checkbox" value="React">React
+            <input type="checkbox" name="checkbox" value="SQL">SQL
+            <input type="checkbox" name="checkbox" value="Python">Python
+          </div>
+        </div>
+      </section>
     </form>
     <div>
       <img id="trybewarts-forms-logo" src="./images/trybewarts-colored.svg" alt="">
     </div>
-</main>
+  </main>
   <script src="./script.js"></script>
 </body>
 
