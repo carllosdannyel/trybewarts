@@ -33,13 +33,11 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-
-  /* background-color: aqua; */
 }
 
 .styles-container {
   display: flex;
   justify-content: space-between;
-  background-color: rgb(113, 113, 168);
   width: 100%;
   align-items: center;
 }
@@ -81,10 +79,8 @@ hr {
 
 .selectors-container {
   display: flex;
-  background-color: aqua;
 }
 
 .family-container {
-  background-color: yellow;
   width: 40%;
 }
