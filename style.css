@@ -20,6 +20,7 @@
 }
 
 #evaluation-form {
+  margin: 20px 50px;
   display: flex;
   width: 675px;
   flex-direction: column;
@@ -105,10 +106,6 @@ hr {
   flex-direction: column;
 }
 
-#evaluation-form {
-  margin: 20px 50px;
-}
-
 #evaluation-form h1 {
   display: flex;
   justify-content: center;
@@ -119,7 +116,20 @@ hr {
   align-items: center;
 }
 
+#btns {
+  display: flex;
+  justify-content: space-between;
+}
+
 #submit-btn {
   background-color: green;
+  width: 35%;
   color: white;
+  border-radius: 3px;
+  padding: 5px;
+}
+
+#submit-btn:hover {
+  background-color: rgb(95, 179, 95);
+  transition: 0.5s;
 }

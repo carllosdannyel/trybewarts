@@ -12,4 +12,18 @@ function checkInputValue() {
     }
   });
 }
+
+function verifyChecked() {
+  const check = document.getElementById('agreement');
+  const botao = document.getElementById('submit-btn');
+  check.addEventListener('click', () => {
+    if (check.checked) {
+      botao.disabled = false;
+    } else {
+      botao.disabled = true;
+    }
+  });
+}
+
 checkInputValue();
+verifyChecked();
