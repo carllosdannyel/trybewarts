@@ -91,3 +91,25 @@ hr {
   display: flex;
   flex-direction: column;
 }
+
+.family-container2 {
+  width: 60%;
+}
+
+#satisfation-container {
+  display: flex;
+}
+
+#comments-area {
+  display: flex;
+  flex-direction: column;
+}
+
+#evaluation-form {
+  margin: 20px 50px;
+}
+
+#evaluation-form h1 {
+  display: flex;
+  justify-content: center;
+}
